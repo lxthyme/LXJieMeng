@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.0.2)
+  - OpenSSL (1.0.210)
+  - SAMKeychain (1.5.2)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Crashlytics
+  - Fabric
+  - FMDB
+  - Mantle
+  - Masonry
+  - OpenSSL
+  - SAMKeychain
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Crashlytics
+    - Fabric
+    - FMDB
+    - Mantle
+    - Masonry
+    - OpenSSL
+    - SAMKeychain
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 79920d5e1943f8f61cc337a5a06a04ed30ab4278
+
+COCOAPODS: 1.5.0

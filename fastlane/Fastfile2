@@ -1,0 +1,45 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+    desc "Description of what the lane does"
+    lane :custom_lane do
+        # add actions here: https://docs.fastlane.tools/actions
+    end
+
+    lane :screenshots do
+        capture_screenshots
+        # upload_to_app_store
+    end
+
+    lane :beta do
+        ENV["SLACK_URL"] = "https://lxthyme.slack.com"
+        # get_certificates
+        # get_provisioning_profile
+        # build_app
+        build_app(scheme: "Example",
+            # workspace: "Example.xcworkspace",
+            # build_path: "fastlane/build/beta",
+            # output_directory: "",
+            buildlog_path: "build",
+            export_method: "development", # app-store, ad-hoc, package, enterprise, development, developer-id
+            # slack_url: "https://lxthyme.slack.com",
+            include_bitcode: true
+            )
+        slack(message: "Successfully distributed a new beta build", channel: "#text")
+    end
+end

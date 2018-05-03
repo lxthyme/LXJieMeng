@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19831D71E906A1988090847C /* Pods_LXJieMeng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAB42248F9270AB487513EE /* Pods_LXJieMeng.framework */; };
+		BE2DA0BD1EEEA3E4007D0DC7 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2DA0AC1EEEA3E4007D0DC7 /* ShareSDK.framework */; };
+		BE2DA0BE1EEEA3E4007D0DC7 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2DA0AF1EEEA3E4007D0DC7 /* ShareSDKExtension.framework */; };
+		BE2DA0BF1EEEA3E4007D0DC7 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE2DA0B01EEEA3E4007D0DC7 /* ShareSDKUI.bundle */; };
+		BE2DA0C01EEEA3E4007D0DC7 /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2DA0B11EEEA3E4007D0DC7 /* ShareSDKUI.framework */; };
+		BE2DA0C11EEEA3E4007D0DC7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2DA0B41EEEA3E4007D0DC7 /* libWeChatSDK.a */; };
+		BE2DA0C21EEEA3E4007D0DC7 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE2DA0B51EEEA3E4007D0DC7 /* README.txt */; };
+		BE2DA0C31EEEA3E4007D0DC7 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2DA0BA1EEEA3E4007D0DC7 /* MOBFoundation.framework */; };
+		BE2DA0C41EEEA3E4007D0DC7 /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE2DA0BB1EEEA3E4007D0DC7 /* ShareSDK.bundle */; };
+		BE2DA0C51EEEA3E4007D0DC7 /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2DA0BC1EEEA3E4007D0DC7 /* ShareSDKConnector.framework */; };
+		BE3EF44E1EA9B93C0032758C /* LingWaiSC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE3EF44D1EA9B93C0032758C /* LingWaiSC-Medium.otf */; };
+		BE3EF4501EA9C6AC0032758C /* LXToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3EF44F1EA9C6AC0032758C /* LXToolKit.swift */; };
+		BE42D5481E94F82100B7BC9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42D5471E94F82100B7BC9A /* AppDelegate.swift */; };
+		BE42D54A1E94F82100B7BC9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42D5491E94F82100B7BC9A /* ViewController.swift */; };
+		BE42D54D1E94F82100B7BC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE42D54B1E94F82100B7BC9A /* Main.storyboard */; };
+		BE42D54F1E94F82100B7BC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE42D54E1E94F82100B7BC9A /* Assets.xcassets */; };
+		BE42D5521E94F82100B7BC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE42D5501E94F82100B7BC9A /* LaunchScreen.storyboard */; };
+		BE42D5741E96214700B7BC9A /* ssmeng.db in Resources */ = {isa = PBXBuildFile; fileRef = BE42D5731E96214700B7BC9A /* ssmeng.db */; };
+		BE42D5771E9622B800B7BC9A /* FMDBKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42D5761E9622B800B7BC9A /* FMDBKit.swift */; };
+		BE42D5791E96232400B7BC9A /* LXConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42D5781E96232400B7BC9A /* LXConf.swift */; };
+		BE42D57F1E96283B00B7BC9A /* LXMengManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42D57E1E96283B00B7BC9A /* LXMengManager.swift */; };
+		BE42D5811E96330100B7BC9A /* LXMengCategoryVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42D5801E96330100B7BC9A /* LXMengCategoryVC2.swift */; };
+		BE5150F51EB0A265008AE248 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5150F41EB0A265008AE248 /* libsqlite3.tbd */; };
+		BE5150F71EB0A26B008AE248 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5150F61EB0A26B008AE248 /* libicucore.tbd */; };
+		BE5150F91EB0A26F008AE248 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5150F81EB0A26F008AE248 /* libz.tbd */; };
+		BE5150FB1EB0A274008AE248 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5150FA1EB0A274008AE248 /* libstdc++.tbd */; };
+		BE5150FD1EB0A27B008AE248 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5150FC1EB0A27B008AE248 /* JavaScriptCore.framework */; };
+		BE53C33A1ECD887D0050340D /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = BE53C3391ECD887D0050340D /* UIImage+Resize.m */; };
+		BE63BD1A1EA457D2005E0153 /* PushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63BD191EA457D2005E0153 /* PushAnimation.swift */; };
+		BE70E29A1EA4B06400CEDBC1 /* LXConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70E2991EA4B06400CEDBC1 /* LXConstant.swift */; };
+		BE70E29D1EA4D0EF00CEDBC1 /* ArchivedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70E29C1EA4D0EF00CEDBC1 /* ArchivedView.swift */; };
+		BE70E29F1EA4D6B000CEDBC1 /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70E29E1EA4D6B000CEDBC1 /* PopAnimation.swift */; };
+		BE7115751E9767120010B493 /* LXMengDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7115741E9767120010B493 /* LXMengDetailCell.swift */; };
+		BE8496DA1ECC28F9004C78F7 /* LXSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8496D91ECC28F9004C78F7 /* LXSearchController.swift */; };
+		BE8496E61ECC41B6004C78F7 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8496E41ECC41B6004C78F7 /* BaseVC.swift */; };
+		BE8496E71ECC41B6004C78F7 /* FactoryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8496E51ECC41B6004C78F7 /* FactoryComponent.swift */; };
+		BEA8A9BB1ED67D430059E5C9 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8A9BA1ED67D430059E5C9 /* Snapshot.swift */; };
+		BEEC93351E9637E100707E34 /* LXMengCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC93341E9637E100707E34 /* LXMengCategoryCell.swift */; };
+		BEEC93371E963F3B00707E34 /* LXMengHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC93361E963F3B00707E34 /* LXMengHeaderView.swift */; };
+		BEEC933B1E964B0300707E34 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC933A1E964B0300707E34 /* Colours.m */; };
+		BEEC933D1E964D6F00707E34 /* LXImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC933C1E964D6F00707E34 /* LXImage.swift */; };
+		BEEC933F1E964F9200707E34 /* LXMengSecondCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC933E1E964F9200707E34 /* LXMengSecondCategoryVC.swift */; };
+		BEEC93411E9734A100707E34 /* LXMengSecondCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC93401E9734A100707E34 /* LXMengSecondCategoryCell.swift */; };
+		BEEC93431E973DDF00707E34 /* LXMengDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC93421E973DDF00707E34 /* LXMengDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AF470A80D76A31033DD598B /* Pods-LXJieMeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXJieMeng.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXJieMeng/Pods-LXJieMeng.release.xcconfig"; sourceTree = "<group>"; };
+		4CAB42248F9270AB487513EE /* Pods_LXJieMeng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXJieMeng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FD8472BBE7E942CA08157A /* Pods-LXJieMeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXJieMeng.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXJieMeng/Pods-LXJieMeng.debug.xcconfig"; sourceTree = "<group>"; };
+		BE2DA0AC1EEEA3E4007D0DC7 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		BE2DA0AF1EEEA3E4007D0DC7 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		BE2DA0B01EEEA3E4007D0DC7 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		BE2DA0B11EEEA3E4007D0DC7 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		BE2DA0B41EEEA3E4007D0DC7 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		BE2DA0B51EEEA3E4007D0DC7 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		BE2DA0B61EEEA3E4007D0DC7 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		BE2DA0B71EEEA3E4007D0DC7 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		BE2DA0B81EEEA3E4007D0DC7 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		BE2DA0BA1EEEA3E4007D0DC7 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		BE2DA0BB1EEEA3E4007D0DC7 /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		BE2DA0BC1EEEA3E4007D0DC7 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		BE3EF44D1EA9B93C0032758C /* LingWaiSC-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LingWaiSC-Medium.otf"; sourceTree = "<group>"; };
+		BE3EF44F1EA9C6AC0032758C /* LXToolKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXToolKit.swift; sourceTree = "<group>"; };
+		BE42D5441E94F82100B7BC9A /* LXJieMeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXJieMeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE42D5471E94F82100B7BC9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE42D5491E94F82100B7BC9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE42D54C1E94F82100B7BC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE42D54E1E94F82100B7BC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE42D5511E94F82100B7BC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE42D5531E94F82100B7BC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE42D5731E96214700B7BC9A /* ssmeng.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ssmeng.db; sourceTree = "<group>"; };
+		BE42D5761E9622B800B7BC9A /* FMDBKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBKit.swift; sourceTree = "<group>"; };
+		BE42D5781E96232400B7BC9A /* LXConf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXConf.swift; sourceTree = "<group>"; };
+		BE42D57A1E96244100B7BC9A /* LXJieMeng-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXJieMeng-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE42D57E1E96283B00B7BC9A /* LXMengManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengManager.swift; sourceTree = "<group>"; };
+		BE42D5801E96330100B7BC9A /* LXMengCategoryVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengCategoryVC2.swift; sourceTree = "<group>"; };
+		BE5150F41EB0A265008AE248 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BE5150F61EB0A26B008AE248 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		BE5150F81EB0A26F008AE248 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BE5150FA1EB0A274008AE248 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		BE5150FC1EB0A27B008AE248 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BE53C3381ECD887D0050340D /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		BE53C3391ECD887D0050340D /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		BE63BD191EA457D2005E0153 /* PushAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnimation.swift; sourceTree = "<group>"; };
+		BE70E2991EA4B06400CEDBC1 /* LXConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXConstant.swift; sourceTree = "<group>"; };
+		BE70E29C1EA4D0EF00CEDBC1 /* ArchivedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchivedView.swift; sourceTree = "<group>"; };
+		BE70E29E1EA4D6B000CEDBC1 /* PopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimation.swift; sourceTree = "<group>"; };
+		BE7115741E9767120010B493 /* LXMengDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengDetailCell.swift; sourceTree = "<group>"; };
+		BE8496D91ECC28F9004C78F7 /* LXSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXSearchController.swift; sourceTree = "<group>"; };
+		BE8496E41ECC41B6004C78F7 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		BE8496E51ECC41B6004C78F7 /* FactoryComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryComponent.swift; sourceTree = "<group>"; };
+		BEA8A9BA1ED67D430059E5C9 /* Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Snapshot.swift; path = 3rd/Snapshot.swift; sourceTree = SOURCE_ROOT; };
+		BEEC93341E9637E100707E34 /* LXMengCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengCategoryCell.swift; sourceTree = "<group>"; };
+		BEEC93361E963F3B00707E34 /* LXMengHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengHeaderView.swift; sourceTree = "<group>"; };
+		BEEC93391E964B0300707E34 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		BEEC933A1E964B0300707E34 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		BEEC933C1E964D6F00707E34 /* LXImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXImage.swift; sourceTree = "<group>"; };
+		BEEC933E1E964F9200707E34 /* LXMengSecondCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengSecondCategoryVC.swift; sourceTree = "<group>"; };
+		BEEC93401E9734A100707E34 /* LXMengSecondCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengSecondCategoryCell.swift; sourceTree = "<group>"; };
+		BEEC93421E973DDF00707E34 /* LXMengDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMengDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE42D5411E94F82100B7BC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2DA0C31EEEA3E4007D0DC7 /* MOBFoundation.framework in Frameworks */,
+				BE5150FD1EB0A27B008AE248 /* JavaScriptCore.framework in Frameworks */,
+				BE5150FB1EB0A274008AE248 /* libstdc++.tbd in Frameworks */,
+				BE5150F91EB0A26F008AE248 /* libz.tbd in Frameworks */,
+				BE2DA0BD1EEEA3E4007D0DC7 /* ShareSDK.framework in Frameworks */,
+				BE5150F71EB0A26B008AE248 /* libicucore.tbd in Frameworks */,
+				BE2DA0C11EEEA3E4007D0DC7 /* libWeChatSDK.a in Frameworks */,
+				BE2DA0C01EEEA3E4007D0DC7 /* ShareSDKUI.framework in Frameworks */,
+				BE5150F51EB0A265008AE248 /* libsqlite3.tbd in Frameworks */,
+				19831D71E906A1988090847C /* Pods_LXJieMeng.framework in Frameworks */,
+				BE2DA0BE1EEEA3E4007D0DC7 /* ShareSDKExtension.framework in Frameworks */,
+				BE2DA0C51EEEA3E4007D0DC7 /* ShareSDKConnector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB745760A59B38B382E9238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5150FC1EB0A27B008AE248 /* JavaScriptCore.framework */,
+				BE5150FA1EB0A274008AE248 /* libstdc++.tbd */,
+				BE5150F81EB0A26F008AE248 /* libz.tbd */,
+				BE5150F61EB0A26B008AE248 /* libicucore.tbd */,
+				BE5150F41EB0A265008AE248 /* libsqlite3.tbd */,
+				4CAB42248F9270AB487513EE /* Pods_LXJieMeng.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE2DA0AB1EEEA3E4007D0DC7 /* Weichat */ = {
+			isa = PBXGroup;
+			children = (
+				BE2DA0AC1EEEA3E4007D0DC7 /* ShareSDK.framework */,
+				BE2DA0AD1EEEA3E4007D0DC7 /* Support */,
+			);
+			name = Weichat;
+			path = 3rd/Weichat;
+			sourceTree = "<group>";
+		};
+		BE2DA0AD1EEEA3E4007D0DC7 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BE2DA0AE1EEEA3E4007D0DC7 /* Optional */,
+				BE2DA0B21EEEA3E4007D0DC7 /* PlatformSDK */,
+				BE2DA0B91EEEA3E4007D0DC7 /* Required */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		BE2DA0AE1EEEA3E4007D0DC7 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				BE2DA0AF1EEEA3E4007D0DC7 /* ShareSDKExtension.framework */,
+				BE2DA0B01EEEA3E4007D0DC7 /* ShareSDKUI.bundle */,
+				BE2DA0B11EEEA3E4007D0DC7 /* ShareSDKUI.framework */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		BE2DA0B21EEEA3E4007D0DC7 /* PlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BE2DA0B31EEEA3E4007D0DC7 /* WeChatSDK */,
+			);
+			path = PlatformSDK;
+			sourceTree = "<group>";
+		};
+		BE2DA0B31EEEA3E4007D0DC7 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BE2DA0B41EEEA3E4007D0DC7 /* libWeChatSDK.a */,
+				BE2DA0B51EEEA3E4007D0DC7 /* README.txt */,
+				BE2DA0B61EEEA3E4007D0DC7 /* WechatAuthSDK.h */,
+				BE2DA0B71EEEA3E4007D0DC7 /* WXApi.h */,
+				BE2DA0B81EEEA3E4007D0DC7 /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		BE2DA0B91EEEA3E4007D0DC7 /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				BE2DA0BA1EEEA3E4007D0DC7 /* MOBFoundation.framework */,
+				BE2DA0BB1EEEA3E4007D0DC7 /* ShareSDK.bundle */,
+				BE2DA0BC1EEEA3E4007D0DC7 /* ShareSDKConnector.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		BE3EF44A1EA9B83B0032758C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BE3EF44D1EA9B93C0032758C /* LingWaiSC-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BE42D53B1E94F82100B7BC9A = {
+			isa = PBXGroup;
+			children = (
+				BE6963D91EB0A15000B40678 /* 3rd */,
+				BE2DA0AB1EEEA3E4007D0DC7 /* Weichat */,
+				BE3EF44A1EA9B83B0032758C /* Font */,
+				BE42D5721E9620FE00B7BC9A /* DatsSource */,
+				BE42D55A1E94F8F500B7BC9A /* Model */,
+				BE42D55B1E94F8F500B7BC9A /* VC */,
+				BE42D55C1E94F8F500B7BC9A /* View */,
+				BE42D5591E94F8D900B7BC9A /* ToolKit */,
+				BE42D5461E94F82100B7BC9A /* LXJieMeng */,
+				BE42D5451E94F82100B7BC9A /* Products */,
+				FE29E270825965E526986982 /* Pods */,
+				5BB745760A59B38B382E9238 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE42D5451E94F82100B7BC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE42D5441E94F82100B7BC9A /* LXJieMeng.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE42D5461E94F82100B7BC9A /* LXJieMeng */ = {
+			isa = PBXGroup;
+			children = (
+				BE42D5471E94F82100B7BC9A /* AppDelegate.swift */,
+				BE42D5491E94F82100B7BC9A /* ViewController.swift */,
+				BE42D54B1E94F82100B7BC9A /* Main.storyboard */,
+				BE42D54E1E94F82100B7BC9A /* Assets.xcassets */,
+				BE42D5501E94F82100B7BC9A /* LaunchScreen.storyboard */,
+				BE42D5531E94F82100B7BC9A /* Info.plist */,
+				BE42D57A1E96244100B7BC9A /* LXJieMeng-Bridging-Header.h */,
+			);
+			path = LXJieMeng;
+			sourceTree = "<group>";
+		};
+		BE42D5591E94F8D900B7BC9A /* ToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				BEEC933C1E964D6F00707E34 /* LXImage.swift */,
+				BE3EF44F1EA9C6AC0032758C /* LXToolKit.swift */,
+				BEEC93381E964B0300707E34 /* Colours */,
+				BE42D5781E96232400B7BC9A /* LXConf.swift */,
+				BE42D5751E9622A500B7BC9A /* FMDB */,
+				BE70E2991EA4B06400CEDBC1 /* LXConstant.swift */,
+				BE70E29C1EA4D0EF00CEDBC1 /* ArchivedView.swift */,
+			);
+			path = ToolKit;
+			sourceTree = "<group>";
+		};
+		BE42D55A1E94F8F500B7BC9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE63BD191EA457D2005E0153 /* PushAnimation.swift */,
+				BE70E29E1EA4D6B000CEDBC1 /* PopAnimation.swift */,
+				BE8496D91ECC28F9004C78F7 /* LXSearchController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE42D55B1E94F8F500B7BC9A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BE42D5801E96330100B7BC9A /* LXMengCategoryVC2.swift */,
+				BEEC933E1E964F9200707E34 /* LXMengSecondCategoryVC.swift */,
+				BEEC93421E973DDF00707E34 /* LXMengDetailVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BE42D55C1E94F8F500B7BC9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEEC93331E9637C600707E34 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE42D5721E9620FE00B7BC9A /* DatsSource */ = {
+			isa = PBXGroup;
+			children = (
+				BE42D5731E96214700B7BC9A /* ssmeng.db */,
+			);
+			path = DatsSource;
+			sourceTree = "<group>";
+		};
+		BE42D5751E9622A500B7BC9A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				BE42D5761E9622B800B7BC9A /* FMDBKit.swift */,
+				BE42D57E1E96283B00B7BC9A /* LXMengManager.swift */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		BE6963D91EB0A15000B40678 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				BE8496E31ECC41B6004C78F7 /* Base */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		BE8496E31ECC41B6004C78F7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE8496E41ECC41B6004C78F7 /* BaseVC.swift */,
+				BE8496E51ECC41B6004C78F7 /* FactoryComponent.swift */,
+				BE53C3381ECD887D0050340D /* UIImage+Resize.h */,
+				BE53C3391ECD887D0050340D /* UIImage+Resize.m */,
+				BEA8A9BA1ED67D430059E5C9 /* Snapshot.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BEEC93331E9637C600707E34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BEEC93341E9637E100707E34 /* LXMengCategoryCell.swift */,
+				BEEC93361E963F3B00707E34 /* LXMengHeaderView.swift */,
+				BEEC93401E9734A100707E34 /* LXMengSecondCategoryCell.swift */,
+				BE7115741E9767120010B493 /* LXMengDetailCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BEEC93381E964B0300707E34 /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				BEEC93391E964B0300707E34 /* Colours.h */,
+				BEEC933A1E964B0300707E34 /* Colours.m */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		FE29E270825965E526986982 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FD8472BBE7E942CA08157A /* Pods-LXJieMeng.debug.xcconfig */,
+				0AF470A80D76A31033DD598B /* Pods-LXJieMeng.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE42D5431E94F82100B7BC9A /* LXJieMeng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE42D5561E94F82100B7BC9A /* Build configuration list for PBXNativeTarget "LXJieMeng" */;
+			buildPhases = (
+				22A3DBCB761881FA37982EDE /* [CP] Check Pods Manifest.lock */,
+				BE42D5401E94F82100B7BC9A /* Sources */,
+				BE42D5411E94F82100B7BC9A /* Frameworks */,
+				BE42D5421E94F82100B7BC9A /* Resources */,
+				AC33F4AA86EDBC9DEB30B753 /* [CP] Embed Pods Frameworks */,
+				BEDBF4521EBC11A000BFF372 /* ShellScript */,
+				BEA2147E1ECF02B30027CE2E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXJieMeng;
+			productName = LXJieMeng;
+			productReference = BE42D5441E94F82100B7BC9A /* LXJieMeng.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE42D53C1E94F82100B7BC9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "John LXThyme";
+				TargetAttributes = {
+					BE42D5431E94F82100B7BC9A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZC9P3YJ2F3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BE42D53F1E94F82100B7BC9A /* Build configuration list for PBXProject "LXJieMeng" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE42D53B1E94F82100B7BC9A;
+			productRefGroup = BE42D5451E94F82100B7BC9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE42D5431E94F82100B7BC9A /* LXJieMeng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE42D5421E94F82100B7BC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE42D5521E94F82100B7BC9A /* LaunchScreen.storyboard in Resources */,
+				BE42D54F1E94F82100B7BC9A /* Assets.xcassets in Resources */,
+				BE2DA0BF1EEEA3E4007D0DC7 /* ShareSDKUI.bundle in Resources */,
+				BE3EF44E1EA9B93C0032758C /* LingWaiSC-Medium.otf in Resources */,
+				BE42D5741E96214700B7BC9A /* ssmeng.db in Resources */,
+				BE2DA0C21EEEA3E4007D0DC7 /* README.txt in Resources */,
+				BE2DA0C41EEEA3E4007D0DC7 /* ShareSDK.bundle in Resources */,
+				BE42D54D1E94F82100B7BC9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22A3DBCB761881FA37982EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXJieMeng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC33F4AA86EDBC9DEB30B753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LXJieMeng/Pods-LXJieMeng-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXJieMeng/Pods-LXJieMeng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA2147E1ECF02B30027CE2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5e3685bd89f34a2bf0875091a4c3530ed1f1aa0a 9c98dd914a2d1f742b5ba408395ce508e36650b3bf55c2fe5ac294f367ac5832";
+		};
+		BEDBF4521EBC11A000BFF372 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION == Release ]; then\necho \"Bumping build number...\"\nplist=${PROJECT_DIR}/${INFOPLIST_FILE}\n\n#increment the build number (ie 115 to 116)\nbuildnum=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${plist}\")\nif [[ \"${buildnum}\" == \"\" ]]; then\necho \"No build number in $plist\"\nexit 2\nfi\n\nbuildnum=$(expr $buildnum + 1)\n/usr/libexec/Plistbuddy -c \"Set CFBundleVersion $buildnum\" \"${plist}\"\necho \"Bumped build number to $buildnum\"\n\nelse\necho $CONFIGURATION \" build - Not bumping build number.\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE42D5401E94F82100B7BC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE53C33A1ECD887D0050340D /* UIImage+Resize.m in Sources */,
+				BE42D57F1E96283B00B7BC9A /* LXMengManager.swift in Sources */,
+				BEEC93351E9637E100707E34 /* LXMengCategoryCell.swift in Sources */,
+				BE70E29F1EA4D6B000CEDBC1 /* PopAnimation.swift in Sources */,
+				BE42D54A1E94F82100B7BC9A /* ViewController.swift in Sources */,
+				BE3EF4501EA9C6AC0032758C /* LXToolKit.swift in Sources */,
+				BEEC933F1E964F9200707E34 /* LXMengSecondCategoryVC.swift in Sources */,
+				BEEC933D1E964D6F00707E34 /* LXImage.swift in Sources */,
+				BE70E29D1EA4D0EF00CEDBC1 /* ArchivedView.swift in Sources */,
+				BEA8A9BB1ED67D430059E5C9 /* Snapshot.swift in Sources */,
+				BE8496E71ECC41B6004C78F7 /* FactoryComponent.swift in Sources */,
+				BEEC93411E9734A100707E34 /* LXMengSecondCategoryCell.swift in Sources */,
+				BE8496DA1ECC28F9004C78F7 /* LXSearchController.swift in Sources */,
+				BE42D5771E9622B800B7BC9A /* FMDBKit.swift in Sources */,
+				BE42D5481E94F82100B7BC9A /* AppDelegate.swift in Sources */,
+				BEEC933B1E964B0300707E34 /* Colours.m in Sources */,
+				BE7115751E9767120010B493 /* LXMengDetailCell.swift in Sources */,
+				BE42D5811E96330100B7BC9A /* LXMengCategoryVC2.swift in Sources */,
+				BEEC93371E963F3B00707E34 /* LXMengHeaderView.swift in Sources */,
+				BEEC93431E973DDF00707E34 /* LXMengDetailVC.swift in Sources */,
+				BE63BD1A1EA457D2005E0153 /* PushAnimation.swift in Sources */,
+				BE70E29A1EA4B06400CEDBC1 /* LXConstant.swift in Sources */,
+				BE8496E61ECC41B6004C78F7 /* BaseVC.swift in Sources */,
+				BE42D5791E96232400B7BC9A /* LXConf.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE42D54B1E94F82100B7BC9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE42D54C1E94F82100B7BC9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE42D5501E94F82100B7BC9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE42D5511E94F82100B7BC9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE42D5541E94F82100B7BC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE42D5551E94F82100B7BC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE42D5571E94F82100B7BC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FD8472BBE7E942CA08157A /* Pods-LXJieMeng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yanchen Zhang (6FR9586Q9W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZC9P3YJ2F3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rd/Weichat",
+					"$(PROJECT_DIR)/3rd/Weichat/Support/Optional",
+					"$(PROJECT_DIR)/3rd/Weichat/Support/Required",
+				);
+				INFOPLIST_FILE = LXJieMeng/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rd/LibMJSDK",
+					"$(PROJECT_DIR)/3rd/Weichat/Support/PlatformSDK/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.lxmeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28f44e53-32e8-4b90-a27a-3b715e27c468";
+				PROVISIONING_PROFILE_SPECIFIER = "Jason-Dev_com.jason.*";
+				SWIFT_OBJC_BRIDGING_HEADER = "LXJieMeng/LXJieMeng-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE42D5581E94F82100B7BC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF470A80D76A31033DD598B /* Pods-LXJieMeng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZC9P3YJ2F3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rd/Weichat",
+					"$(PROJECT_DIR)/3rd/Weichat/Support/Optional",
+					"$(PROJECT_DIR)/3rd/Weichat/Support/Required",
+				);
+				INFOPLIST_FILE = LXJieMeng/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rd/LibMJSDK",
+					"$(PROJECT_DIR)/3rd/Weichat/Support/PlatformSDK/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.lxmeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28f44e53-32e8-4b90-a27a-3b715e27c468";
+				PROVISIONING_PROFILE_SPECIFIER = "Jason-Dev_com.jason.*";
+				SWIFT_OBJC_BRIDGING_HEADER = "LXJieMeng/LXJieMeng-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE42D53F1E94F82100B7BC9A /* Build configuration list for PBXProject "LXJieMeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE42D5541E94F82100B7BC9A /* Debug */,
+				BE42D5551E94F82100B7BC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE42D5561E94F82100B7BC9A /* Build configuration list for PBXNativeTarget "LXJieMeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE42D5571E94F82100B7BC9A /* Debug */,
+				BE42D5581E94F82100B7BC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE42D53C1E94F82100B7BC9A /* Project object */;
+}
